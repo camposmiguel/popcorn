@@ -2,14 +2,6 @@
 
 Kotlin Android App = MVVM (Jetpack Components) + Dagger2 + Retrofit ;)
 
-## Screenshots
-
-Some screenshots of the app:
-
-<img src="https://github.com/camposmiguel/popcorn/blob/master/art/Screenshot_1.png" data-canonical-src="https://github.com/camposmiguel/TheMovieDBAndroid/blob/master/RESOURCES/Screenshot_1.png" width="250" />
-
-<img src="https://github.com/camposmiguel/popcorn/blob/master/art/Screenshot_2.png" data-canonical-src="https://github.com/camposmiguel/TheMovieDBAndroid/blob/master/RESOURCES/Screenshot_2.png" width="250" />
-
 ## Built with
 
 * [TheMovieDB API](https://developers.themoviedb.org/3) - TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use.
@@ -29,9 +21,19 @@ Make a git clone of this repository and open the project in Android Studio. IMPO
 
 v1.0
 
+
 ## Authors
 
 * **Miguel Campos Rivera** - [Github](https://github.com/camposmiguel)
+
+## Screenshots
+
+Some screenshots of the app:
+
+<img src="https://github.com/camposmiguel/popcorn/blob/master/art/Screenshot_1.png" data-canonical-src="https://github.com/camposmiguel/TheMovieDBAndroid/blob/master/RESOURCES/Screenshot_1.png" width="250" />
+
+<img src="https://github.com/camposmiguel/popcorn/blob/master/art/Screenshot_2.png" data-canonical-src="https://github.com/camposmiguel/TheMovieDBAndroid/blob/master/RESOURCES/Screenshot_2.png" width="250" />
+
 
 ## License
 
