@@ -1,6 +1,6 @@
 package com.androidavanzado.popcorn.api
 
-import com.androidavanzado.popcorn.common.Constantes
+import com.androidavanzado.popcorn.common.Constants
 import okhttp3.Interceptor
 import okhttp3.Response
 import javax.inject.Inject
@@ -15,8 +15,8 @@ class TheMovieDBInterceptor @Inject constructor(): Interceptor {
         val urlWithParams = chain.request()
             .url
             .newBuilder()
-            .addQueryParameter(Constantes.URL_PARAM_API_KEY, Constantes.API_KEY)
-            .addQueryParameter(Constantes.URL_PARAM_LANGUAGE, "es-ES")
+            .addQueryParameter(Constants.URL_PARAM_API_KEY, Constants.API_KEY)
+            .addQueryParameter(Constants.URL_PARAM_LANGUAGE, "es-ES")
             .build()
 
         var request = chain.request()

@@ -9,7 +9,7 @@ import android.widget.TextView
 import coil.api.load
 import coil.transform.CircleCropTransformation
 import com.androidavanzado.popcorn.R
-import com.androidavanzado.popcorn.common.Constantes
+import com.androidavanzado.popcorn.common.Constants
 import com.androidavanzado.popcorn.api.response.Movie
 
 import kotlinx.android.synthetic.main.fragment_movie_list.view.*
@@ -36,7 +36,7 @@ class MovieRecyclerViewAdapter() : RecyclerView.Adapter<MovieRecyclerViewAdapter
         holder.tvTitle.text = item.title
         holder.tvRating.text = item.vote_average.toString()
 
-        holder.ivPhoto.load(Constantes.IMAGE_BASE_URL + item.poster_path) {
+        holder.ivPhoto.load(Constants.IMAGE_BASE_URL + item.poster_path) {
             crossfade(true)
             placeholder(R.drawable.ic_cine)
             transformations(CircleCropTransformation())
